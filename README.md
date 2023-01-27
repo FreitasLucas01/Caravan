@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img align="center" src="img/travel.svg" style="width: 20px"> </p> <br>
+<p align="center"><img align="center" src="img/travel.svg" style="width: 100px"> </p> <br>
 
 <h1 align="center"> Portófio </h1>
 
