@@ -1,0 +1,41 @@
+body {
+  padding-top: 76px;
+}
+
+.home-quote {
+  background: url("../img/bg-quote.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.list-planos li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.list-planos li:last-child {
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f1ecf9;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: #4b1ea4 !important;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .fixed-top {
+    position: relative !important;
+  }
+}
+
+@media (max-width: 305px) {
+  .btn-margin-auto {
+    margin-inline: auto;
+  }
+}

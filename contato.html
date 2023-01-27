@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/app.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Caravan - Contato</title>
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">Entre na sua Conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-1">
+                    <form>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="loginPassword">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer pt-0 justify-content-center" style="border-top: none;">
+                    <button class="btn btn-primary me-auto btn-margin-auto">Entrar na Conta</button>
+                    <div class="ms-end small">
+                        <p class="text-secondary m-0">Esqueceu a senha?</p>
+                        <a href="#" class="text-primary d-block text-center">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 shadow-sm">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/caravan.svg" alt="Caravan">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Locais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="local.html">Califórnia</a></li>
+                            <li><a class="dropdown-item" href="local.html">Paris</a></li>
+                            <li><a class="dropdown-item" href="local.html">Dublin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planos.html">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary ms-0 ms-md-2" href="inscricao.html">Inscreva-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="py-5 text-center">
+            <p class="h6">ESTAMOS ESPERANDO SEU CONTATO</p>
+            <h2 class="display-4 text-primary">Fale Conosco✉️</h2>
+        </div>
+        <div class="row g-5 mb-5">
+            <div class="col-lg bg-light rounded p-4 shadow">
+                <form>
+                    <div>
+                        <label for="contatoNome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="contatoNome">
+                    </div>
+                    <div class="my-3">
+                        <label for="contatoEmail" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="contatoEmail">
+                    </div>
+                    <div>
+                        <label for="contatoMensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="contatoMensagem" rows="7"></textarea>
+                    </div>
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg">
+                <h2 class="h6">NOSSO ENDEREÇO</h2>
+                <img class="img-fluid shadow rounded mb-4" role="button" src="/img/mapa.png" alt="Mapa">
+                <h2 class="h6">DADOS DE CONTATO</h2>
+                <ul class="list-unstyled text-secondary mb-4">
+                    <li>caravan@caravan.com.br</li>
+                    <li>21 99999-9999</li>
+                    <li>Segundas às Sextas 8h às 18h</li>
+                </ul>
+                <h4 class="h6 mb-3">REDES SOCIAIS</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><a class="btn btn btn-outline-secondary" style="display: block; max-width: 260px;"
+                            href="#">Facebook</a></li>
+                    <li><a class="btn btn btn-outline-secondary my-2" style="display: block; max-width: 260px;"
+                            href="#">Twitter</a></li>
+                    <li><a class="btn btn btn-outline-secondary" style="display: block; max-width: 260px;"
+                            href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mb-5">
+        <div class="py-5 text-center">
+            <p class="h6">AINDA ESTÁ COM DÚVIDAS?</p>
+            <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div id="accordionFather" class="col-lg-6 accordion accordion-flush">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="pergunta01">
+                        <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#resposta01" aria-expanded="true"
+                            aria-controls="accordionFlush-collapseOne">
+                            <span class="lead">
+                                → É possível cancelar a viagem?
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="resposta01" class="accordion-collapse collapse show" data-bs-parent="#accordionFather"
+                        aria-labelledby="accordionFlush-headingOne">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit reiciendis
+                            asperiores aliquid maiores non beatae. Maiores temporibus iusto ex assumenda nisi numquam
+                            asperiores deleniti, harum ullam, illo, rerum deserunt?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header" id="pergunta02">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#resposta02" aria-expanded="false"
+                            aria-controls="accordionFlush-collapseTwo">
+                            <span class="lead">
+                                → Qual garantia que tenho se perder o voo?
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="resposta02" class="accordion-collapse collapse" data-bs-parent="#accordionFather"
+                        aria-labelledby="flush-headingTwo">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit reiciendis
+                            asperiores aliquid maiores non beatae. Maiores temporibus iusto ex assumenda nisi numquam
+                            asperiores deleniti, harum ullam, illo, rerum deserunt?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header" id="pergunta03">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#resposta03" aria-expanded="false"
+                            aria-controls="accordionFlush-collapseThree">
+                            <span class="lead">
+                                → Qual a principal forma de viagem?
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="resposta03" class="accordion-collapse collapse" data-bs-parent="#accordionFather"
+                        aria-labelledby="flush-headingThree">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit reiciendis
+                            asperiores aliquid maiores non beatae. Maiores temporibus iusto ex assumenda nisi numquam
+                            asperiores deleniti, harum ullam, illo, rerum deserunt?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header" id="pergunta04">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#resposta04" aria-expanded="false"
+                            aria-controls="accordionFlush-collapseFour">
+                            <span class="lead">
+                                → Qual o melhor destino de viagem?
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="resposta04" class="accordion-collapse collapse" data-bs-parent="#accordionFather"
+                        aria-labelledby="flush-headingFour">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit reiciendis
+                            asperiores aliquid maiores non beatae. Maiores temporibus iusto ex assumenda nisi numquam
+                            asperiores deleniti, harum ullam, illo, rerum deserunt?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header" id="pergunta05">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#resposta05" aria-expanded="false"
+                            aria-controls="accordionFlush-collapseFive">
+                            <span class="lead">
+                                → Qual garantia que tenho se perder o voo?
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="resposta05" class="accordion-collapse collapse" data-bs-parent="#accordionFather"
+                        aria-labelledby="flush-headingFive">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit reiciendis
+                            asperiores aliquid maiores non beatae. Maiores temporibus iusto ex assumenda nisi numquam
+                            asperiores deleniti, harum ullam, illo, rerum deserunt?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item py-2">
+                    <h2 class="accordion-header" id="pergunta06">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#resposta06" aria-expanded="false"
+                            aria-controls="accordionFlush-collapseSix">
+                            <span class="lead">
+                                → Existe desconto para grupos?
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="resposta06" class="accordion-collapse collapse" data-bs-parent="#accordionFather"
+                        aria-labelledby="flush-headingSix">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit reiciendis
+                            asperiores aliquid maiores non beatae. Maiores temporibus iusto ex assumenda nisi numquam
+                            asperiores deleniti, harum ullam, illo, rerum deserunt?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h4 class="h6">PÁGINAS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-primary-hover" href="planos.html">Planos</a></li>
+                        <li><a class="text-decoration-none text-primary-hover" href="contato.html">Contato</a></li>
+                        <li><a class="text-decoration-none text-primary-hover" href="inscricao.html">Inscreva-se</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4 class="h6">LOCAIS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-primary-hover" href="local.html">Califórnia</a></li>
+                        <li><a class="text-decoration-none text-primary-hover" href="local.html">Paris</a></li>
+                        <li><a class="text-decoration-none text-primary-hover" href="local.html">Dublin</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="h6">DADOS DE CONTATO</h4>
+                    <ul class="list-unstyled text-secondary">
+                        <li>caravan@caravan.com.br</li>
+                        <li>21 99999-9999</li>
+                        <li>Segundas às Sextas 8h às 18h</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="h6">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a class="btn btn-sm btn-outline-secondary" style="display: block; max-width: 140px;"
+                                href="#">Facebook</a></li>
+                        <li><a class="btn btn-sm btn-outline-secondary my-2" style="display: block; max-width: 140px;"
+                                href="#">Twitter</a></li>
+                        <li><a class="btn btn-sm btn-outline-secondary" style="display: block; max-width: 140px;"
+                                href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-primary text-center py-3">
+            Caravan © 2023. Alguns direitos reservados.
+        </div>
+    </footer>
+
+</body>
+
+</html>
