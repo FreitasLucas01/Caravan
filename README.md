@@ -1,7 +1,7 @@
 <br>
 <p align="center"><img align="center" src="img/travel.svg" style="width: 200px"> </p>
 
-<h1 align="center"> Portófio </h1>
+<h1 align="center"> Caravan </h1>
 
 <p align="center">
     <a href="#demo"> Demonstração</a> •
