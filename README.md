@@ -38,9 +38,9 @@
 ✔️Boostrap<br><br>
 ✔️SCSS<br><br>
 
-<h2 id="projeto"> 💻 Projeto </h2>
+<h2 id="projeto"> 💻 Projeto </h2><br>
 
-<p>Projeto foi desenvolvido para treinar a ferramenta de desenvolvimento Boostrap</p>
+<p>Projeto foi desenvolvido para treinar a ferramenta de desenvolvimento Boostrap</p><br>
 
 <hr>
 <br>
