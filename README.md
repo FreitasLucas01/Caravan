@@ -32,7 +32,7 @@
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
-<p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br>
+<p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br><br>
 
 ✔️HTML<br><br>
 ✔️Boostrap<br><br>
