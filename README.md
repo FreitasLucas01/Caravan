@@ -32,11 +32,11 @@
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
-<p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br><br>
+<p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br>
 
 ✔️HTML<br><br>
 ✔️Boostrap<br><br>
-✔️SCSS<br>
+✔️SCSS<br><br>
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
