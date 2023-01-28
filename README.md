@@ -36,9 +36,9 @@
 
 ✔️HTML<br><br>
 ✔️Boostrap<br><br>
-✔️SCSS<br><br>
+✔️SCSS<br>
 
-<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.gif> </h2><br><br>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.gif> </h2><br>
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
