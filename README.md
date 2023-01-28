@@ -14,7 +14,6 @@
 <h2 id="demo"> 📷 Demonstração </h2>
 
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/1.png> </h2>
-<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/2.png> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/3.png> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.png> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/5.png> </h2>
